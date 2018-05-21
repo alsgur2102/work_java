@@ -6,7 +6,7 @@ public class Hello {
 		// TODO Auto-generated method stub
         System.out.println("Hello, World!");
         System.out.println("¾È³ç, ¼¼°è!");
-        System.out.println("¾È³ç, ³­ °­¹ÎÇõ 19»ì");       
+        System.out.println("°­¹ÎÇõ");     
 	}
 
 }
