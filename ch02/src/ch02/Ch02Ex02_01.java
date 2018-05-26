@@ -5,28 +5,28 @@ import java.util.Scanner;
 public class Ch02Ex02_01 {
 
 	public static void main(String[] args) {
+		// 1. 입력받기 위해 스캐너 객체 생성, System.in은 키보드
 		Scanner scanner = new Scanner(System.in);
 		
-		String input = scanner.nextLine();
-		String input1 = scanner.nextLine();
-		String input2 = scanner.nextLine();
+		// 2. scanner를 이용하여 성적 입력받기 (세번 입력)
+		String strKor = scanner.nextLine();
+		String strMat = scanner.nextLine();
+		String strEng = scanner.nextLine();
 		
-		int num = Integer.parseInt(input);
-		int num1 = Integer.parseInt(input1);
-		int num2 = Integer.parseInt(input2);
+		// 3. 문자열로 입력받은 성적을 정수(int)형으로 변경
+		int kor = Integer.parseInt(strKor);
+		int mat = Integer.parseInt(strMat);
+		int eng = Integer.parseInt(strEng);
 		
-		int sum = num + num1 + num2;
-		int avg = (num + num1 + num2) / 3;
+		// 4. 합계와 평균을 구하기
+		int sum = kor + mat + eng;
+		int avg = sum / 3;
 		
-		System.out.printf("%s ", "kor");
-		System.out.printf("%d%n", num);
-		System.out.printf("%s ", "mat");
-		System.out.printf("%d%n", num1);
-		System.out.printf("%s ", "eng");
-		System.out.printf("%d%n", num2);
-		System.out.printf("%s ", "sum");
-		System.out.printf("%d%n", num + num1 + num2);
-		System.out.printf("%s ", "avg");
-		System.out.printf("%d%n ", (num + num1 + num2) / 3);
+		// 5. printf()를 이용하여 출력
+		System.out.printf("kor %d%n", kor);
+		System.out.printf("mat %d%n", mat);
+		System.out.printf("eng %d%n", eng);
+		System.out.printf("sum %d%n", sum);
+		System.out.printf("avg %d%n", avg);
 	}
 }
