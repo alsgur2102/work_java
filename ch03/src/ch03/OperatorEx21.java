@@ -16,6 +16,6 @@ public class OperatorEx21 {
 		
 		// 컴파일 단계에서 'A' + 1은 'B'로 치환
 		// 각 문자의 아스키 코드값으로 비교. 66 != 66 의 결과는 false
-		System.out.printf("'A'+1 i= 'B'  \t %b%n", 'A' +1 != 'B');
+		System.out.printf("'A'+1 != 'B'  \t %b%n", 'A' +1 != 'B');
 	}
 }
