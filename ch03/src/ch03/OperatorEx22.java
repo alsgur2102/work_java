@@ -10,7 +10,7 @@ public class OperatorEx22 {
 				System.out.printf("10.0 == 10.0f    %b%n", 10.0 == 10.0f);
 				
 				// double형과 float형의 비교. 0.1d == 0.1d.
-				// float을double로 형변환하면서 오차발생. 결과 값 false
+				// float을 double로 형변환하면서 오차발생. 결과 값 false
 				System.out.printf("0.1 == 0.1f      %b%n", 0.1 == 0.1f);
 				
 				// 총 19자리. 소수점 17자리 표시. 변수 f, d, d2 출력
