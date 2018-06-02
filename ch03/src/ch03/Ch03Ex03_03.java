@@ -5,18 +5,17 @@ import java.util.Scanner;
 public class Ch03Ex03_03 {
 
 	public static void main(String[] args) {
-		 Scanner scanner = new Scanner(System.in);
+		// 1. 세 개의 정수를 가로로 입력받기
+		Scanner scanner = new Scanner(System.in);	
+	    String[] numbers = scanner.nextLine().split(" ");
+        int num1 = Integer.parseInt(numbers[0]); 	
+        int num2 = Integer.parseInt(numbers[1]); 
+        int num3 = Integer.parseInt(numbers[2]); 
 			
-			String strNum1 = scanner.nextLine();
-			String strNum2 = scanner.nextLine();
-			String strNum3 = scanner.nextLine();
-			
-			int num1 = Integer.parseInt(strNum1);
-	    	int num2 = Integer.parseInt(strNum2);
-	    	int num3 = Integer.parseInt(strNum3);
-	    	
-	    	double a = (double)(num1+num2+num3)/3;
-	    	
-	    	System.out.printf("%.1f", a);
+        // 2. 3과목 정수를 입력받아 평균을 구하기
+	    double avg = (num1 + num2 + num3) / 3.0;	
+	    
+	    // 3. 결과 출력
+	   	System.out.printf("%.1f", avg);
 	}
 }

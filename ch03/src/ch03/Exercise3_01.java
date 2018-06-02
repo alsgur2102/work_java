@@ -1,6 +1,6 @@
 package ch03;
 
-public class Exercise3_1 {
+public class Exercise3_01 {
 	public static void main(String[] args) {
 		int x = 2;
 		int y = 5;

@@ -5,22 +5,20 @@ import java.util.Scanner;
 public class Ch03Ex03_04 {
 
 	public static void main(String[] args) {
+		// 1. 실수 3개를 가로로 입력받기
 		Scanner scanner = new Scanner(System.in);
-		
-		String strNum1 = scanner.nextLine();
-		String strNum2 = scanner.nextLine();
-		String strNum3 = scanner.nextLine();
-		
-		double num1 = Double.parseDouble(strNum1);
-    	double num2 = Double.parseDouble(strNum2);
-    	double num3 = Double.parseDouble(strNum3);
+		String[] numbers = scanner.nextLine().split(" ");
+		double kor = Double.parseDouble(numbers[0]);
+    	double eng = Double.parseDouble(numbers[1]);
+    	double math = Double.parseDouble(numbers[2]);
     	
-    	int a = (int)num1;
-    	int b = (int)num2;
-    	int c = (int)num3;
-    	int sum = a + b + c;
-    	int avg = (int) (num1 + num2 + num3)/3;
+    	// 2. 총점은 정수부분의 합계 -> int형변환해서 합계 구하기
+    	int sum = (int)kor + (int)eng + (int)math;
+        
+    	// 3. 평균은 실수의 평균을 구한 뒤 정수부분만 출력 -> 실수의 평균을 int형변환하기
+    	int avg = (int)((kor + eng + math) / 3);
     	
-    	System.out.printf("sum %d%navg %d", sum, avg);
+    	// 4. 결과 출력
+    	System.out.printf("%s %d%n%s %d%n", "sum", sum, "avg", avg);
 	}
 }

@@ -1,6 +1,6 @@
 package ch03;
 
-public class Exercise3_6 {
+public class Exercise3_06 {
 
 	public static void main(String[] args) {
 		int num = 24;

@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Ch03Ex01_02 {
 	 
 	public static void main(String[] args) {
+		// 1. 1개의 정수 입력받기
 		Scanner scanner = new Scanner(System.in);
-		
-		String strNum = scanner.nextLine();
-		
+	    String strNum = scanner.nextLine();
 		int num = Integer.parseInt(strNum);
 		
+		// 2. 후치 증가 연산자와 전치 증가 연산자를 사용하여 출력
 		System.out.println(num++);
 		System.out.println(++num);
 	}
