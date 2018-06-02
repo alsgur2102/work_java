@@ -21,6 +21,7 @@ public class FlowEx06 {
 		
 		case 6: case 7: case 8:
 			System.out.println("현재의 계절은 여름입니다.");
+			break;
 			
 		case 9: case 10: case 11:
 			System.out.println("현재의 계절은 가을입니다.");

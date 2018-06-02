@@ -21,7 +21,7 @@ public class FlowEx04 {
 		} else if (score >= 70) {   // score가 70점 보다 같거나 크면 C학점
 			grade = 'C';
 		
-		}else {                     // 나머지는 D학점
+		} else {                     // 나머지는 D학점
 			grade = 'D';       
 		}
 		
