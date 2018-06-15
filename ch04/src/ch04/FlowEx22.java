@@ -12,7 +12,7 @@ public class FlowEx22 {
 		// 기존 for문
 		for (int i = 0; i < arr.length; i++) {
 			System.out.printf("%d ", arr[i]);
-		}
+		} 
 		System.out.println();
 		
 		// 향상된 for문 (JDK 1.5 버전부터 사용가능)
