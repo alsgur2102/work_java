@@ -8,7 +8,7 @@ public class Ch04Ex01_05 {
 		Scanner scanner = new Scanner(System.in);
 		String[] numbers = scanner.nextLine().split(" ");  
 		double num1 = Double.parseDouble(numbers[0]);
-		double num2 = Double.parseDouble(numbers[1]);
+		double num2 = Double.parseDouble(numbers[1]);	
 		
 		// 2. 모두 4.0 이상이면 "A" 출력
 		if (num1 >= 4.0 && num2 >= 4.0) {          
