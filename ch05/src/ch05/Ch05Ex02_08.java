@@ -37,7 +37,7 @@ public class Ch05Ex02_08 {
 		// numbers 배열을 처음부터 탐색한다.
 		for (int j = 0; j < numbers.length; j++) {
 			// 만약 0을 만나게 되면 반복문 종료
-			if (numbers[i] == 0) {
+			if (numbers[j] == 0) {
 				break;
 			}
 			

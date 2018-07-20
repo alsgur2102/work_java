@@ -26,7 +26,7 @@ public class Ch05Ex02_06 {
 				System.out.print(i + " ");
 				
 				// 반복문을 빠져나온다.
-				// break;
+				break;
 			}
 		}
 		
